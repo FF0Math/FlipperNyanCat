@@ -1,0 +1,6 @@
+$image =  "https://i.ytimg.com/vi/MYzB3AbK00g/maxresdefault.jpg"
+$i = -join($image,"?dl=1")
+iwr $i -O $env:TMP\i.jpg
+
+iwr https://https://i.ytimg.com/vi/MYzB3AbK00g/maxresdefault.jpg?dl=1 -O $env:TMP\i.jpg
+
